@@ -1,2 +1,2 @@
 # EelBAMRvinod
-This is my coide for 2D eel
+This is my code 2D eel
