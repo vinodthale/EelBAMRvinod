@@ -1,9 +1,23 @@
 # EelBAMRvinod - Fish Swimming Simulations with IBAMR
 
+<div align="center">
+
 **Complete implementation of anguilliform (eel-like) and carangiform (tuna-like) swimming kinematics for IBAMR's ConstraintIB method**
 
 [![IBAMR](https://img.shields.io/badge/IBAMR-ConstraintIB-blue)](https://ibamr.github.io/)
 [![License](https://img.shields.io/badge/license-BSD-green)](LICENSE)
+[![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+[![GitHub stars](https://img.shields.io/github/stars/vinodthale/EelBAMRvinod?style=social)](https://github.com/vinodthale/EelBAMRvinod/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/vinodthale/EelBAMRvinod?style=social)](https://github.com/vinodthale/EelBAMRvinod/network/members)
+
+[![GitHub issues](https://img.shields.io/github/issues/vinodthale/EelBAMRvinod)](https://github.com/vinodthale/EelBAMRvinod/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/vinodthale/EelBAMRvinod)](https://github.com/vinodthale/EelBAMRvinod/commits)
+[![Code size](https://img.shields.io/github/languages/code-size/vinodthale/EelBAMRvinod)](https://github.com/vinodthale/EelBAMRvinod)
+[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red)](https://github.com/vinodthale)
+
+[📖 Documentation](#-documentation) • [🚀 Quick Start](#-quick-start) • [🔬 Examples](#-usage-examples) • [🤝 Contributing](#-contributing) • [📬 Contact](#-contact--support)
+
+</div>
 
 ---
 
@@ -22,6 +36,25 @@ This repository provides complete, ready-to-use implementations of **two major f
 - High efficiency (~75-85%), fast cruising speed
 - Less than one wave on body (λ > L)
 - Examples: Tuna, mackerel, jacks, sharks
+
+---
+
+## ⚡ Key Features
+
+<div align="center">
+
+| Feature | Description |
+|---------|-------------|
+| 🎓 **Research-Grade** | Based on peer-reviewed biomechanics literature |
+| 📦 **Ready to Use** | Complete working examples with all dependencies |
+| 📚 **Well Documented** | Comprehensive theory, math derivations, and guides |
+| 🔧 **Customizable** | Easy parameter tuning for your research needs |
+| 🚀 **High Performance** | Optimized for HPC with MPI parallelization |
+| 📊 **Analysis Tools** | MATLAB scripts for post-processing and visualization |
+| 🧪 **Validated** | Kinematics match biological observations |
+| 🌐 **Community** | Open-source with active maintenance |
+
+</div>
 
 ---
 
@@ -486,8 +519,48 @@ This code is based on IBAMR examples and follows the same 3-clause BSD license.
 
 ## 👤 Author
 
+<div align="center">
+
 **Vinod Thale**
-Repository: [github.com/vinodthale/EelBAMRvinod](https://github.com/vinodthale/EelBAMRvinod)
+
+[![GitHub](https://img.shields.io/badge/GitHub-vinodthale-181717?style=for-the-badge&logo=github)](https://github.com/vinodthale)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/vinodthale)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vinod.thale@example.com)
+
+*Computational Scientist | CFD & FSI Specialist | Bio-inspired Engineering*
+
+</div>
+
+---
+
+## 📖 Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+@software{thale2024eelbamr,
+  author = {Thale, Vinod},
+  title = {EelBAMRvinod: Fish Swimming Simulations with IBAMR ConstraintIB},
+  year = {2024},
+  publisher = {GitHub},
+  url = {https://github.com/vinodthale/EelBAMRvinod},
+  note = {Complete implementation of anguilliform and carangiform swimming kinematics}
+}
+```
+
+Also please cite the IBAMR framework:
+
+```bibtex
+@article{griffith2017hybrid,
+  title={Hybrid finite difference/finite element immersed boundary method},
+  author={Griffith, Boyce E and Luo, Xiaoyu},
+  journal={International Journal for Numerical Methods in Biomedical Engineering},
+  volume={33},
+  number={12},
+  pages={e2888},
+  year={2017}
+}
+```
 
 ---
 
@@ -501,13 +574,54 @@ Repository: [github.com/vinodthale/EelBAMRvinod](https://github.com/vinodthale/E
 
 ## 📬 Contact & Support
 
-For questions, issues, or collaboration:
-- Open an issue on GitHub
-- Refer to IBAMR documentation: [ibamr.github.io](https://ibamr.github.io/)
-- Check the detailed READMEs in `examples/` directories
+<div align="center">
+
+### 💬 Need Help?
+
+| Resource | Description |
+|----------|-------------|
+| 🐛 **[GitHub Issues](https://github.com/vinodthale/EelBAMRvinod/issues)** | Report bugs or request features |
+| 💡 **[Discussions](https://github.com/vinodthale/EelBAMRvinod/discussions)** | Ask questions and share ideas |
+| 📖 **[IBAMR Docs](https://ibamr.github.io/)** | Official IBAMR documentation |
+| 📚 **[Examples](./examples/)** | Detailed usage guides |
+| 📧 **Email** | vinod.thale@example.com |
+
+### 🌟 Show Your Support
+
+If this project helped your research or learning, please consider:
+- ⭐ **Starring** this repository
+- 🍴 **Forking** for your own projects
+- 📢 **Sharing** with colleagues
+- 📝 **Citing** in your publications
+
+</div>
 
 ---
 
+## 📈 Repository Stats
+
+<div align="center">
+
+![Star History Chart](https://api.star-history.com/svg?repos=vinodthale/EelBAMRvinod&type=Date)
+
+</div>
+
+---
+
+<div align="center">
+
 **🐟 Happy Swimming Simulations! 🐍**
 
-*"In theory, there is no difference between theory and practice. In practice, there is."* - Yogi Berra (also applies to fish swimming!)
+*"In theory, there is no difference between theory and practice. In practice, there is."* - Yogi Berra
+
+*"Also applies to fish swimming!"*
+
+---
+
+### Built with ❤️ for the Computational Biomechanics Community
+
+[![Made with Love](https://img.shields.io/badge/Made%20with-❤️%20%26%20☕-red?style=for-the-badge)](https://github.com/vinodthale)
+
+**Last Updated:** 2024 | **Maintained by:** [@vinodthale](https://github.com/vinodthale)
+
+</div>
