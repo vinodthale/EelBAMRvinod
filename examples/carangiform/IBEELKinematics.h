@@ -7,12 +7,16 @@
 /////////////////////////////// INCLUDES /////////////////////////////////////
 
 #include <ibamr/ConstraintIBKinematics.h>
+
 #include <ibtk/LDataManager.h>
 
-namespace IBTK
-{
-class LDataManager;
-} // namespace IBTK
+#include <SAMRAI/tbox/Database.h>
+#include <SAMRAI/tbox/Pointer.h>
+
+#include <Eigen/Dense>
+
+#include <string>
+#include <vector>
 
 /*!
  * \brief Class IBEELKinematics provides kinematic velocity for carangiform

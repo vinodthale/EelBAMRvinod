@@ -3,17 +3,25 @@
 // Amplitude envelope: A(X) = a₀ + a₁X + a₂X²
 
 #include "IBEELKinematics.h"
+
+#include <SAMRAI_config.h>
+#include <SAMRAI/tbox/Database.h>
+#include <SAMRAI/tbox/Pointer.h>
+
 #include <cmath>
 
 #ifndef M_PI
 #define M_PI 3.14159265358979323846
 #endif
 
+namespace IBAMR
+{
+
 /////////////////////////////// PUBLIC ///////////////////////////////////////
 
 IBEELKinematics::IBEELKinematics(
     const std::string& object_name,
-    Pointer<Database> input_db,
+    SAMRAI::tbox::Pointer<SAMRAI::tbox::Database> input_db,
     bool register_for_restart)
     : ConstraintIBKinematics(object_name, input_db, register_for_restart)
 {
